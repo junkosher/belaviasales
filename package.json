@@ -1,0 +1,31 @@
+{
+  "name": "aviasales-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "next": "9.0.6",
+    "@zeit/next-workers": "1.0.1-canary.1",
+    "worker-loader": "2.0.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-ioc": "1.0.0",
+    "mobx-react": "6.1.3",
+    "mobx": "5.13.0",
+    "@babel/plugin-proposal-decorators": "7.6.0",
+    "next-images": "1.2.0",
+    "debounce": "1.2.0",
+    "rxjs": "6.5.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-plugin-react": "^7.14.3",
+    "babel-eslint": "10.0.3"
+  }
+}
